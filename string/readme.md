@@ -14,6 +14,18 @@ A string is a class that contains a char array, but automatically manages it for
 ## Questions :
 
 * Convert string to lowercase and uppercase ---->[C++](/Code/C++/string_to_lowercase_and_uppercase.cpp)
+* #include <iostream>
+using namespace std;
+
+int main()
+{
+   char ch;
+   cout<<"Enter a character in lowercase: "; 
+   cin>>ch;
+   ch=ch-32;
+   cout<<"Entered character in uppercase: "<<ch;
+   return 0;
+}
 * Manacher's algorithm (finding the longest palindrome in a string) ----> [Java](/Code/Java/longPalindrome.java)
 * Maximum occuring character in a string ---->[C++](/Code/C++/max_count.cpp)
 * Number of deletions to make a string pallindrome ---->[Python](/string/Number_of_deletions_to_make_pallindrome.py)
